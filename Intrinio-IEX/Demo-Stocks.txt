@@ -1,0 +1,30 @@
+﻿AAPL, Apple
+AXP, American Express
+BA, Boeing
+CAT, Caterpillar
+CSCO, Cisco
+CVX, Chevron
+DD, E I du Pont de Nemours and Co
+DIS, Disney
+GE, General Electric
+GS, Goldman Sachs
+HD, Home Depot
+IBM, IBM
+INTC, Intel
+JNJ, Johnson & Johnson
+JPM, JPMorgan Chase
+KO, Coca-Cola
+MCD, McDonald's
+MMM, 3M
+MRK, Merck
+MSFT, Microsoft
+NKE, Nike
+PFE, Pfizer
+PG, Procter & Gamble
+TRV, Travelers Companies Inc
+UNH, UnitedHealth
+UTX, United Technologies
+V, Visa
+VZ, Verizon
+XOM, Exxon Mobil
+WMT, Wal-Mart

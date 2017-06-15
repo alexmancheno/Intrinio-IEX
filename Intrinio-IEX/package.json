@@ -1,0 +1,16 @@
+{
+  "name": "intrinio-iex",
+  "version": "0.0.0",
+  "description": "Intrinio-IEX",
+  "main": "app.js",
+  "author": {
+    "name": "Alex"
+  },
+  "dependencies": {
+    "dgram": "^1.0.1",
+    "express": "^4.15.3",
+    "intrinio-realtime": "^1.0.1",
+    "mssql": "^4.0.4",
+    "readline": "^1.3.0"
+  }
+}
