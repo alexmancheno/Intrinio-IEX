@@ -2,24 +2,20 @@
 
 var IntrinioRealtime = require('intrinio-realtime');
 var Config = require(process.cwd() + '\\config.js');
-
+var sql = require('mssql')
 // Create an IntrinioRealtime instance
-var ir = new IntrinioRealtime({
+
+const ir = new IntrinioRealtime({
     username: Config.Intrinio_Keys.username,
     password: Config.Intrinio_Keys.password,
 })
 
-const sql = require('mssql')
-
 const config = {
     user: Config.Database_Config.user,
     password: Config.Database_Config.password,
-    server: Config.Database_Config.server, // You can use 'localhost\\instance' to connect to named instance
+    server: Config.Database_Config.server,
     database: Config.Database_Config.database,
-
-    options: {
-        encrypt: false // Use this if you're on Windows Azure
-    }
+    realTimeTable: Config.Database_Config.realTimeTable
 }
 const readline = require('readline');
 const fs = require('fs');
@@ -43,7 +39,8 @@ rl.on('line', (line) => {
      // Listen for quotes
      ir.onQuote(quote => {
        var { ticker, type, price, size, timestamp } = quote;
-       request.query(String.format(`insert into Demo_Table(Ticker, Quote_Type, Price, Size, Original_Timestamp) values ('{0}', '{1}', {2}, {3}, {4});`, ticker, type, price, size, timestamp));
+      //request.query(String.format(`insert into {0} (Ticker, Quote_Type, Price, Size, Original_Timestamp) values ('{1}', '{2}', {3}, {4}, {5});`, config.realTimeTable, ticker, type, price, size, timestamp));
+       //console.log(quote);
        console.log("QUOTE: ", ticker, type, price, size, timestamp);
      })
 

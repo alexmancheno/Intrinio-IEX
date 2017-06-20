@@ -1,19 +1,26 @@
 ﻿AAPL, Apple
 AXP, American Express
 BA, Boeing
+BABA, Alibaba Group Holding Ltd. ADR
+BAC, Bank of America
 CAT, Caterpillar
 CSCO, Cisco
 CVX, Chevron
 DD, E I du Pont de Nemours and Co
 DIS, Disney
+EFA, iShares MSCI EAFE ETF
+F, Ford Motor Co.
+GDX, VanEck Vectors Gold Miners ETF
 GE, General Electric
 GS, Goldman Sachs
 HD, Home Depot
 IBM, IBM
 INTC, Intel
+IWM, iShares Russell 2000 ETF
 JNJ, Johnson & Johnson
 JPM, JPMorgan Chase
 KO, Coca-Cola
+KR, Kroger Co.
 MCD, McDonald's
 MMM, 3M
 MRK, Merck
@@ -21,10 +28,23 @@ MSFT, Microsoft
 NKE, Nike
 PFE, Pfizer
 PG, Procter & Gamble
+RAD, Rite Aid Corp.
+SNAP, Snap Inc
+SPY, SPDR S&P 500 ETF Trust
 TRV, Travelers Companies Inc
+TWTR, Twitter
 UNH, UnitedHealth
 UTX, United Technologies
+UVXY, ProShares Ultra VIX Short-Term Futures ETF
 V, Visa
+VALE, Vale S.A. ADR
+VXX, Barclays Bank PLC iPath S&P 500 VIX Short-Term Futures ETN
 VZ, Verizon
 XOM, Exxon Mobil
+WFT, Weatherford International Ltd.
+WLL, Whiting Petroleum Corp.
 WMT, Wal-Mart
+X, United States Steel Corp.
+XLE, Energy Select Sector SPDR ETF
+XLF, Financial Select Sector SPDR ETF
+XOP, SPDR S&P Oil & Gas Exploration & Production ETF
